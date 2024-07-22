@@ -1,0 +1,76 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+    height:30px ;
+    margin: 8px;
+}
+#banner{
+    width: 100%;
+    object-fit: cover;
+}
+.heading{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+#about{
+    display: flex;
+    max-width: 800px;
+    margin:0 auto;
+    padding:0 8px;
+}
+#description{
+    width: 50%;
+    /* padding: 0 8px; */
+}
+a{
+    text-decoration: none;
+}
+#team{
+    width:50%;
+    
+}
+#work{
+    border-radius: 5px;
+    width: 100%;
+}
+.apply{
+    float:right;
+}
+#jobs{
+max-width: 800px;
+margin: 0 auto;
+padding: 0 auto;
+}
+#job-role{
+    margin:0 auto;
+}
+h3{
+    margin-bottom: 4px;
+}
+
+.location{
+    margin-bottom: 4px;
+    color: rgb(83, 153, 153);
+}
+#footer{
+text-align: center;
+background-color: ghostwhite;
+padding: 8px;
+margin-top: 30px;
+}
+#footer-list{
+    list-style-type: none;
+}
+#footer-list li{
+    display: inline;
+    margin: 0 16px;
+}
+#copyright{
+color: rgb(95, 189, 189);
+}
