@@ -99,6 +99,9 @@ font-family: Arial, Helvetica, sans-serif;
     height: 80px;
     width: 80%;
 }
+#resume{
+    border: 1px solid grey;
+}
 #submit{
     background-color: rgb(21, 138, 255);
     border: 2px solid  rgb(21, 138, 255);
@@ -109,7 +112,7 @@ font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     cursor: pointer;
 }
-#submit:hover,:focus{
+#submit:hover,#submit:focus{
     background-color: rgb(255, 192, 75);
     border: 2px solid  rgb(21, 138, 255);
     color: rgb(21, 138, 255);

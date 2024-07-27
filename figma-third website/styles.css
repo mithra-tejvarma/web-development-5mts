@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+    height: 2316px;
+    background-color: #FFF8F0;
+}
+
+#home {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#left-home {
+    width: 40%;
+    padding-right: 8px;
+}
+
+#contacts {
+    font-family: "League Spartan";
+    display: flex;
+    margin: 10px 0;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+
+#phone {
+    display: flex;
+}
+
+#email {
+    display: flex;
+}
+
+/* .contacts-image{ */
+/* height: 16px; */
+/* width: 16px; */
+/* } */
+#hi-line {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.h2 {
+    display: inline;
+    font-weight: 800;
+    font-size: 2.75rem;
+    line-height: 50px;
+}
+
+#and {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.para {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 10px;
+    line-height: 35px;
+}
+
+#home-image {
+    padding-left: 12px;
+}
+
+/* #image{ */
+
+/* top: 0px; */
+/* left: 0px; */
+/* } */
+#about {
+    margin-left: 0px;
+    margin-top: 90px;
+}
+
+.top {
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #2858FF;
+}
+
+.head {
+    text-align: center;
+    /* font-family: League Spartan; */
+    font-size: 32px;
+    font-weight: 700;
+    width: 700px;
+    line-height: 40px;
+    margin: 0 auto;
+}
+
+.centered-para {
+    width: 670px;
+    margin-top: 0px;
+    margin-left: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.centre {
+    text-align: center;
+    margin-top: 0px;
+}
+
+#container {
+    display: flex;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+.box {
+    background-color: white;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.about-para {
+    text-align: center;
+    line-height: 24px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.heading {
+    font-size: 1.20rem;
+    text-align: center;
+}
+
+#section-projects {
+    width: 1060px;
+    margin-top: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 127px;
+}
+
+.section-para {
+    width: 670px;
+    margin-top: 0px;
+    margin-left: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects {
+    margin-top: 28px;
+}
+
+.project {
+    display: flex;
+    margin-top: 20px;
+}
+
+.project-logo {
+    /* display: inline-block; */
+    margin-right: 19px;
+}
+
+.project-info {
+    /* display: inline-block; */
+}
+
+.project-name {
+    font-weight: 700;
+    line-height: 27px;
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+}
+
+.span-title {
+    color: #291854;
+}
+
+.project-text {
+    font-weight: 400;
+    font-size: 1.07rem;
+    line-height: 24px;
+    margin-bottom: 8px;
+    color: #55206D;
+}
+
+.link {
+    text-decoration: none;
+    color: #6A87A3;
+}
+
+.project-link {
+    font-size: 0.875rem;
+    padding-top: 5px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 58px;
+    /* padding-top: auto; */
+    /* padding-bottom: auto; */
+}
+
+#footer-text {
+    width: fit-content;
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 0 auto;
+    padding-top: 20px;
+    /* padding-bottom: auto; */
+    line-height: 18px;
+}
