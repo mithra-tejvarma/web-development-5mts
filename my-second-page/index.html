@@ -21,8 +21,11 @@
 
 <body>
     <div>
-        <img id="logo" src="images/logo.png" alt="Jovian logo">
-        <img id="banner" src="images/banner.jpg" alt="Banner for Jovian" height="200px">
+        <div id="navbar">
+        <img src="images/jovian-logo.png" alt="jovian-logo" id="jovian-logo" height="30" >
+        <img id="jovian-logo-text" src="images/logo.png" alt="Jovian logo with text" height="30">
+    </div>
+        <img id="banner" src="images/banner.jpg" alt="Banner for Jovian" >
         <h1 class="heading">About Jovian</h1>
         <div id="about">
             <div id="description">
@@ -48,12 +51,44 @@
                 </ol>
             </div>
             <div id="team">
-                <img id="work" src="images/work-side.jpg" alt="working together" height="200px">
+                <img id="work" src="images/work-side.jpg" alt="working together" >
             </div>
         </div>
 
         <h2>Job Opurtunities</h2>
         <div id="jobs">
+            <div id="jobs-list">
+                <div class="job">
+                    <div class="job-title">Frontend Developer</div>
+                    <div class="job-detail">Bengaluru, India </div>
+                    <div class="job-detail">₹12,00,000</div>
+                    <div class="job-detail">posted Mar 3,2023</div>
+                </div>
+                <div class="job">
+                    <div class="job-title">Backend Developer</div>
+                    <div class="job-detail">Mumbai,India</div>
+                    <div class="job-detail">₹15,00,000</div>
+                    <div class="job-detail">posted Feb 1,2023</div>
+                </div>
+                <div class="job">
+                    <div class="job-title">Full Stack Developer</div>
+                    <div class="job-detail">Hyderbad, India</div>
+                    <div class="job-detail">₹ 25,00,000</div>
+                    <div class="job-detail">Posted May 10, 2023</div>
+                </div>
+                <div class="job">
+                    <div class="job-title">Data Scientist</div>
+                    <div class="job-detail">San Francisco, USA</div>
+                    <div class="job-detail">$175,000</div>
+                    <div class="job-detail">Posted Dec 22, 2022</div>
+                </div>
+                <div class="job">
+                    <div class="job-title">ML Engineer</div>
+                    <div class="job-detail">Remote</div>
+                    <div class="job-detail">$80,000</div>
+                    <div class="job-detail">Posted Sep 19, 2022</div>
+                </div>
+            </div>
             <table id="job-table">
                 <tr class="job-head-row">
                     <th rowspan="2">Job Title</th>
