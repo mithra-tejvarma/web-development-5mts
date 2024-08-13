@@ -1,0 +1,278 @@
+/*responsive web layout*/
+
+/*Mobile layout and also all styles that are common 
+for every layout*/
+body {
+    font-family: "Inter", "Roboto", sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+#bg-img-container {
+    position: relative;
+    /* Container for image and text */
+    width: 100%;
+    height: 1024px;
+    /*Set your desired height*/
+    background-image: url("images/unsplash_1rBg5YSi00c.png");
+    /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Cover the entire container */
+    color: white;
+    /* Text color */
+}
+
+#navbar {
+    display: flex;
+    margin: 32px 0;
+    position: absolute;
+    font-size: 24px;
+    top: 0;
+    width: 100%;
+    color: white;
+    /* Text color */
+    justify-content: space-between;
+
+}
+
+#nav-head {
+    font-weight: 900;
+    font-size: 1.70rem;
+    margin-left: 32px;
+}
+
+#nav-menu {
+    align-self: flex-end;
+    margin-right: 32px;
+}
+
+#menu-buttons {
+    display: none;
+}
+
+#header {
+    position: absolute;
+    top: 285px;
+    display: flex;
+    flex-direction: column;
+    max-width: 314px;
+    margin-left: 32px;
+    gap: 32px;
+}
+
+#box {
+    /* margin-bottom: 32px; */
+    height: 15px;
+}
+
+#head {
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 61.8px;
+    color: white;
+}
+
+#para-text {
+    margin: 0;
+    font-size: 19px;
+    line-height: 30px;
+    color: white;
+}
+
+#head-button {
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 9px 28px;
+    width: 98px;
+}
+
+#heading {
+    margin: 72px 32px;
+}
+
+#heading h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+#news-section {
+    max-width: 311px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-bottom: 32px;
+
+}
+
+.news {
+    border: 1px solid #DDDDDD;
+}
+
+.news-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+    margin-top: 35px;
+}
+
+.news-time {
+    color: #B7B7B7;
+    margin-bottom: 28px;
+}
+
+.news-head {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 24px;
+    width: 247px;
+}
+
+.news-read {
+    margin-top: 30px;
+    align-self: flex-end;
+    font-size: 15px;
+    color: #D9852C;
+    font-weight: 500;
+    padding-right: 32px;
+    margin-bottom: 32px;
+}
+
+/*Tablet layout*/
+
+@media screen and (min-width:430px) {
+    body {
+        font-size: 16px;
+    }
+
+    #bg-img-container {
+        background-image: url("images/Background.png");
+    }
+
+    #header {
+        max-width: 600px;
+        margin-left: 72px;
+        margin-right: 72px;
+    }
+
+    #head {
+        font-size: 57px;
+        font-weight: 400;
+        line-height: 90px;
+    }
+
+    #para {
+        color: white;
+        font-weight: 500;
+        font-size: 19px;
+        width: 526px;
+        margin: 0;
+        line-height: 30px;
+        /* margin-top: 12px;
+        margin-bottom: 12px; */
+    }
+    #news-section{
+        max-width: none;
+        flex-direction: row;
+        margin-left: 72px;
+        /* flex-shrink: 2; */
+        /* flex-wrap: wrap; */
+    }
+    .news{
+        width: 187px;
+        /* height: 635px; */
+        box-sizing: border-box;
+    }
+    .news-image img{
+        width: 187px;
+        height: 352px;
+
+    }
+    .news-title{
+        width: 154px;
+    }
+    .news-head{
+      width:123px ;
+      text-wrap: wrap;
+      font-size: 16px;
+      line-height: 18px;
+    }
+    .news-read{
+        justify-self: flex-end;
+    }
+}
+
+/*Desktop layout*/
+
+@media screen and (min-width:966px) {
+    body {
+        font-size: 18px;
+    }
+
+    #nav-menu {
+        display: none;
+    }
+
+    #bg-img-container {
+        background-image: url("images/Background\ \(1\).png");
+    }
+
+    #menu-buttons {
+        display: inline;
+    }
+
+    #nav-list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    #nav-list li {
+        display: inline;
+        margin-right: 35px;
+        font-size: 18px;
+    }
+
+    .get-button {
+        border: 2px solid white;
+        border-radius: 10px;
+        padding: 8px 27px;
+    }
+
+    #header {
+        max-width: 748px;
+
+    }
+
+    #head {
+        font-size: 71px;
+    }
+    .news{
+        width: 419px;
+    }
+    .news-image img{
+        width: 419px;
+    }
+    .news-title{
+        width: 355px;
+        margin-right: 32px;
+    }
+    .news-head{
+        width: 353px; 
+        text-wrap: wrap;
+        font-size: 27px;
+        line-height: 31px;
+        font-weight: 700;
+      }
+      .news-read{
+        padding: 0;
+        align-self: flex-end;
+      }
+
+
+
+}
